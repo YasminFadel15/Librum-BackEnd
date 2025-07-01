@@ -1,0 +1,6 @@
+com\example\librumbackend\LibrumBackEndApplication.class
+com\example\librumbackend\controller\BookController.class
+com\example\librumbackend\config\DatabaseInitializer.class
+com\example\librumbackend\entity\BookEntity.class
+com\example\librumbackend\service\BookService.class
+com\example\librumbackend\repository\BookRepository.class
