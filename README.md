@@ -11,6 +11,21 @@ O frontend mobile está disponível neste repositório: [Librum Mobile](https://
 - PostgreSQL (Neon)
 - Maven
 
+## Configuração do arquivo `.env`
+
+Para rodar a aplicação é necessario criar um arquivo `.env` na raiz do projeto.
+
+### Passos para criar o `.env`:
+
+1. Na raiz do seu projeto (onde está o `pom.xml`), crie um arquivo chamado `.env`
+
+2. Insira as variáveis de ambiente para o banco de dados:
+
+   ```env
+   DB_URL=jdbc:postgresql://ep-xxxxx.neon.tech/seubanco
+   DB_USERNAME=seu_usuario
+   DB_PASSWORD=sua_senha
+
 ## Endpoints disponíveis
 
 Todos os endpoints aceitam **requisições CORS** do app mobile.
